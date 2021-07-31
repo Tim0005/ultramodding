@@ -11,3 +11,5 @@ client.on("ready", async () => {
     client.user.setActivity("24/7 Support", { type: "PLAYING" });
  
 });
+
+botConfig.login(process.env.token)
